@@ -1,0 +1,87 @@
+{
+  "container": {
+    "id": "72d787a73531",
+    "name": "atsea-sample-shop-app_database_1"
+  },
+  "evt": {
+    "args": "res=0 ",
+    "arg0": "0",
+    "category": "unknown",
+    "count": 1,
+    "datetime": "2020-10-26 07:54:05.796588092",
+    "deltatime": 995862093,
+    "deltatimeNs": 995862093,
+    "dir": "<",
+    "info": "res=0 ",
+    "latency": 3174,
+    "latencyHuman": "3.17us",
+    "latencyNs": 3174,
+    "num": 14636932,
+    "outputtime": "07:54:05.796588092",
+    "rawtime": 1.603698845796588e+18,
+    "rawtimeNs": "796588092",
+    "rawtimeS": "1603698845",
+    "reltime": "1001172944108",
+    "reltimeNs": "172944108",
+    "reltimeS": "1001",
+    "res": "SUCCESS",
+    "time": "07:54:05.796588092",
+    "timeIso8601": "2020-10-26T07:54:05.796588092+0000",
+    "timeS": "07:54:05",
+    "type": "close"
+  },
+  "fd": {
+    "containerdirectory": "72d787a73531:/",
+    "containername": "72d787a73531:",
+    "directory": "/",
+    "num": 5,
+    "typechar": "o",
+    "uid": "39205"
+  },
+  "group": {
+    "gid": 999,
+    "name": "docker"
+  },
+  "proc": {
+    "aname": "postgres",
+    "apid": 3920,
+    "cmdline": "postgres",
+    "cwd": "/var/lib/postgresql/data/",
+    "duration": 1001262878912.0,
+    "env": " walwriter ",
+    "exe": "postgres: walwriter ",
+    "exeline": "postgres: walwriter  ",
+    "exepath": "/usr/lib/postgresql/13/bin/postgres",
+    "fdlimit": 1048576,
+    "fdopencount": 8,
+    "fdusage": 0.000762939453125,
+    "name": "postgres",
+    "nthreads": 1,
+    "pcmdline": "postgres",
+    "pid": 3920,
+    "pname": "postgres",
+    "ppid": 3442,
+    "sid": 3920,
+    "sname": "postgres",
+    "vmrss": 9932,
+    "vmsize": 213884,
+    "vpgid": 64,
+    "vpid": 64
+  },
+  "syscall": {
+    "type": "close"
+  },
+  "thread": {
+    "cgroups": "cpuset=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 freezer=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 memory=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 perf_event=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 blkio=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 pids=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 net_cls=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 net_prio=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 rdma=/ cpu=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 cpuacct=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 hugetlb=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 devices=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2 name=systemd=/docker/72d787a73531964350d95d8c4f49cc679ae7543e5bfd43ccd51fa1acaf5c94a2",
+    "ismain": true,
+    "pfminor": 1140,
+    "tid": 3920,
+    "vmrss": 9932,
+    "vmsize": 213884,
+    "vtid": 64
+  },
+  "user": {
+    "uid": 999,
+    "loginuid": -1
+  }
+}
